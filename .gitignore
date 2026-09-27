@@ -1,0 +1,15 @@
+# Dependencies and caches (never committed; dist/ IS committed on purpose)
+node_modules
+.vite
+*.tsbuildinfo
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Local env files are never part of the export
+*.local
